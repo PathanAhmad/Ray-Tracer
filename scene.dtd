@@ -1,0 +1,10 @@
+<!ELEMENT scene (output_file, background_color, camera)>
+<!ELEMENT output_file (#PCDATA)>
+<!ELEMENT background_color (#PCDATA)>
+<!ELEMENT camera (position, look_at, up, fov, resolution, max_bounces)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT look_at (#PCDATA)>
+<!ELEMENT up (#PCDATA)>
+<!ELEMENT fov (#PCDATA)>
+<!ELEMENT resolution (#PCDATA)>
+<!ELEMENT max_bounces (#PCDATA)> 

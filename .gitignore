@@ -1,7 +1,25 @@
+# Build artifacts
 build/
-*.sln
-*.vcxproj
-*.vcxproj.filters
-CMakeCache.txt
+cmake-build-*/
 CMakeFiles/
-cmake_install.cmake 
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Output directory
+output/
+
+# IDE files
+.vscode/
+.vs/
+*.vcxproj*
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db 
